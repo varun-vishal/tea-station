@@ -14,8 +14,281 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>tea station</h1>
-    <!-- YOUR CODE GOES HERE -->
+    <!-- navbar -->
+    <!-- nav button -->
+    <span class="nav-button" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbarheader">
+        <span class="navclose" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="navitems">
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="skills.html" class="navlink">skills</a></li>
+        <li><a href="about.html" class="navlink">about</a></li>
+        <li><a href="products.html" class="navlink">products</a></li>
+      </ul>
+    </nav>
+    <!--header-->
+    <header class="header">
+      <div class="banner">
+        <h2>over one hundred flavours of</h2>
+        <h1>specially <br> crafted tea
+        </h1>
+        <a href="skills.html" class="button banner-button">Explore</a>
+        </div>
+    </header>
+    <!-- end of header -->
+    <div class="contentdivider"></div>
+    <!-- skills -->
+    <section class="skills clearfix">
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mug-hot"></i>
+    </span>
+      <h4 class="skilltitle">made in India</h4>
+      <p class="skilltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque.
+      </p>
+    </article>
+    <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-glass-cheers"></i>
+      </span>
+      <h4 class="skilltitle">relaxation</h4>
+      <p class="skilltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque.
+      </p>
+    </article>
+    <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-bomb"></i>
+      </span>
+      <h4 class="skilltitle">energy</h4>
+      <p class="skilltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque.
+      </p>
+    </article>
+    <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mortar-pestle"></i>
+      </span>
+      <h4 class="skilltitle">family recipe  
+      </h4>
+      <p class="skilltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque.
+      </p>
+    </article>
+    <!-- end of single skill -->
+    </section>
+    <!-- end of skills -->
+    <!--about -->
+    <section>
+      <div class="sectioncenter clearfix">
+      <!-- about image -->
+      <article class="aboutimg">
+        <div class="about-picture-container">
+          <img src="./images/about-bcg.jpeg" alt="Tea Kettle" class="aboutpicture">
+        </div>
+      </article>
+      <!-- about info -->
+      <article class="aboutinfo">
+        <div class="sectiontitle">
+        <h3>about our</h3>
+        <h2>tea station</h2>
+      </div>
+      <p class="abouttext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti dolores mollitia quo cupiditate nulla?</p>
+      <p class="abouttext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti dolores mollitia quo cupiditate nulla?</p>
+      <a href="about.html" class="button">learn more</a>
+      </article>
+      </div>
+    </section>
+    <!-- end of about -->
+    <!-- products -->
+    <section class="products">
+     <div class="sectioncenter clearfix">
+     <!-- productsinfo -->
+     <article class="productsinfo">
+      <div class="sectiontitle">
+        <h3>check out</h3>
+        <h2>our products</h2>
+      </div>
+      <p class="producttext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iusto, laborum unde laboriosam, accusantium velit commodi facilis, vitae ad libero tempore culpa? Obcaecati, quo ex.</p>
+      <a href="products.html" class="button">inventory</a>
+     </article>
+     <!-- products inventory -->
+     <article class="productsinventory">
+       <!-- single product -->
+      <div class="product">
+        <img src="./images/product-1.jpeg" alt="Single Product" class="productimg">
+        <h4 class="producttitle">ginger peach tea</h4>
+        <h4 class="productprice">Rs 70</h4>
+      </div>
+      <!-- end of single product -->
+      <!-- single product -->
+      <div class="product">
+        <img src="./images/product-2.jpeg" alt="Single Product" class="productimg">
+        <h4 class="producttitle">fruit sangria</h4>
+        <h4 class="productprice">Rs 85</h4>
+      </div>
+      <!-- end of single product -->
+      <!-- single product -->
+      <div class="product">
+        <img src="./images/product-3.jpeg" alt="Single Product" class="productimg">
+        <h4 class="producttitle">white tea</h4>
+        <h4 class="productprice">Rs 78</h4>
+      </div>
+      <!-- end of single product -->
+     </article>
+     </div>           
+    </section>
+    <!-- end of products -->
+    <!-- services -->
+    <section class="services">
+    <div class="sectiontitle services-title">
+      <h3>explore</h3>
+      <h2>our services</h2>
+    </div>
+    <div class="sectioncenter clearfix">
+     <!-- single card -->
+     <article class="servicecard">
+     <div class="service-img-container">
+    <img src="./images/product-1.jpeg" alt="Single Service" class="serviceimg">
+    <span class="serviceicon">
+    <i class="fas fa-mortar-pestle fa-fw"></i>
+    </span>
+     </div>
+     <!-- service info -->
+     <div class="serviceinfo">
+     <h4>custom recipes</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi numquam voluptatum iste quam vero?</p>
+     <a href="products.html" class="button servicebutton">read more</a>
+     </div>
+     </article>
+     <!-- end of single card -->
+    <!-- single card -->
+    <article class="servicecard">
+      <div class="service-img-container">
+        <img src="./images/product-2.jpeg" alt="Single Service" class="serviceimg">
+        <span class="serviceicon">
+          <i class="fas fa-home fa-fw"></i>
+        </span>
+      </div>
+      <!-- service info -->
+      <div class="serviceinfo">
+        <h4>home delivery</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi numquam voluptatum iste quam vero?</p>
+        <a href="products.html" class="button servicebutton">read more</a>
+      </div>
+    </article>
+    <!-- end of single card -->
+    <!-- single card -->
+    <article class="servicecard">
+      <div class="service-img-container">
+        <img src="./images/product-3.jpeg" alt="Single Service" class="serviceimg">
+        <span class="serviceicon">
+          <i class="fas fa-mug-hot fa-fw"></i>
+        </span>
+      </div>
+      <!-- service info -->
+      <div class="serviceinfo">
+        <h4>tea aging</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi numquam voluptatum iste quam vero?</p>
+        <a href="products.html" class="button servicebutton">read more</a>
+      </div>
+    </article>
+  </div>
+    </section>
+    <!-- end of single card -->
+    <!-- end of services -->
+    <!-- contact -->
+    <section class="contact">
+      <div class="sectioncenter clearfix">
+        <!-- contact info -->
+        <article class="contactinfo">
+          <!-- contact item -->
+          <div class="contactitem">
+            <h4 class="contacttitle">
+              <span class="contacticon">
+                <i class="fas fa-location-arrow"></i>
+              </span>
+              address
+            </h4>
+            <h4 class="contacttext">107, jagdeo palace, dimna road,<br> mango, jamshedpur 831012</h4>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contactitem">
+            <h4 class="contacttitle">
+              <span class="contacticon">
+                <i class="fas fa-envelope"></i>
+              </span>
+               email
+            </h4>
+            <h4 id="email" class="contacttext">varun04vishal@gmail.com</h4>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contactitem">
+            <h4 class="contacttitle">
+              <span class="contacticon">
+                <i class="fas fa-phone"></i>
+              </span>
+              mobile no.
+            </h4>
+            <h4 class="contacttext">+91 7899075941</h4>
+          </div>
+          <!-- end of contact item -->
+        </article>
+        <!-- contact form -->
+        <article class="contactform">
+          <h3>contact Us</h3>
+          <form action="https://formspree.io/mwkrljrl" method="POST">
+            <div class="formgroup">
+              <!-- inputs -->
+              <input type="text"
+              placeholder="name" class="formcontrol" name="name">
+              <input type="email" placeholder="email" class="formcontrol" name="email">
+              <textarea name="message" placeholder="message"  class="formcontrol" rows="6"></textarea>
+              </div>
+              <button type="submit" class="submitbutton button">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- end of contact -->
+    <!-- footer -->
+    <footer>
+      <div class="sectioncenter">
+        <div class="socialicons">
+          <!-- social icon -->
+          <a href="#" class="socialicon">
+            <i class="fab fa-facebook"></i>
+          </a>
+         <!-- end of social icon -->
+        <!-- social icon -->
+        <a href="#" class="socialicon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <!-- end of social icon -->
+        <!-- social icon -->
+        <a href="#" class="socialicon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- end of social icon -->
+        </div>
+        <h4 class="footertext">&copy; <span>2020</span>
+        <span class="company">tea station</span>
+      all rights reserved </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
     <script src="app.js"></script>
   </body>
 </html>
